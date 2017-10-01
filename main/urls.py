@@ -17,5 +17,6 @@ from django.conf.urls import url, include
 
 
 urlpatterns = [
-    url(r'^login/', include('apps.login.urls')),
+    url(r'^', include('apps.login.urls')),
+
 ]
